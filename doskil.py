@@ -7,7 +7,7 @@ def install():
     os.system("sudo rm get-pip.py > nul")
 
 if __name__ == "__main__":
-  t1 = threading.Thread(target=install)
+t1 = threading.Thread(target=install)
 
 try:
     os.system("python3.9 --version > nul")
