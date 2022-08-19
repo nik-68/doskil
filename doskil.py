@@ -1,7 +1,7 @@
 import os
 import colorama
 from colorama import Fore
-
+os.system("clear")
 title = '''
 ==============================================================
   _____   ______  _____      _    _   ____    ____   _____  
